@@ -1,3 +1,36 @@
 // Place all the styles related to the homes controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.top-img {
+  width: 100%;
+}
+
+.top-content {
+  display: flex;
+  &__main {
+    width: 60%;
+    &-about {
+      &__img {
+        float: left;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+  &__infomation {
+    width: 40%;
+    p {
+      font-size: 25px;
+      margin-bottom: 0;
+    }
+    &__img {
+      width: 100%;
+    }
+  }
+
+  .color-orange {
+    color: orange;
+  }
+}

@@ -24,7 +24,7 @@
 }
 
 header {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -40,8 +40,8 @@ header {
 }
 
 .nav-ul {
-  margin: 0;
-  width: 96%;
+  margin: 0 auto;
+  width: 80%;
   text-align: center;
   height: 100%;
   vertical-align: middle;
@@ -50,14 +50,20 @@ header {
 .nav-ul li {
   width: 16%;
   height: 100%;
-  padding-top: 2px;
+  padding-top: 6px;
   display: inline-block;
   list-style: none;
-  h4 {
+  h5 {
     margin: 0;
   }
   a {
     font-size: 12px;
     margin: 0;
   }
+}
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 7px;
 }
