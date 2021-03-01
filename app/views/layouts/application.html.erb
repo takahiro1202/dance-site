@@ -12,13 +12,43 @@
 
 <body>
   <header>
-    <div>
-      <h5>タイトル</h5>
+    <a>タイトル</a>
+    <div class="header-content">
       <%= link_to image_tag("mainlogo.gif"), root_path %>
+      <div class="header-content__number">
+        <a>お問い合わせは</a>
+        <h5>0000-00-0000</h5>
+      </div>
     </div>
   </header>
-  <nav>
-  </nav>
+  <div id="nav">
+    <ul class="nav-ul">
+      <li>
+        <h4>HOME</h4>
+        <a>ホーム</a>
+      </li>
+      <li>
+        <h4>LESSON</h4>
+        <a>レッスン料金<a>
+      </li>
+      <li>
+        <h4>STAFF</h4>
+        <a>スタッフ紹介</a>
+      </li>
+      <li>
+        <h4>CIRCLE</h4>
+        <a>関連サークル紹介</a>
+      </li>
+      <li>
+        <h4>SCHOOL</h4>
+        <a>スクール概要</a>
+      </li>
+      <li>
+        <h4>CONTACT</h4>
+        <a>お問い合わせ</a>
+      </li>
+    </ul>
+  </div>
   <main>
     <%= yield %>
   </main>
