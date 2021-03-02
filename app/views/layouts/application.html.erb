@@ -24,12 +24,16 @@
   <div id="nav">
     <ul class="nav-ul">
       <li>
+        <%= link_to root_path, class: "btn btn-nav" do %>
         <h5>HOME</h5>
-        <a>ホーム</a>
+        <p>ホーム</p>
+        <% end %>
       </li>
       <li>
+        <%= link_to "/lesson", class: "btn btn-nav" do %>
         <h5>LESSON</h5>
-        <a>レッスン料金<a>
+        <p>レッスン料金</p>
+        <% end %>
       </li>
       <li>
         <h5>STAFF</h5>
@@ -52,7 +56,17 @@
   <main>
     <%= yield %>
   </main>
-  <footer></footer>
+  <div class="sub-footer">
+    <div class="header-content">
+      <%= link_to image_tag("mainlogo.gif"), root_path %>
+      <div class="header-content__number">
+        <a>お問い合わせは</a>
+        <h5>0000-00-0000</h5>
+      </div>
+    </div>
+  </div>
+  <footer>
+  </footer>
 </body>
 
 </html>

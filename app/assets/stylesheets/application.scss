@@ -23,8 +23,17 @@
   box-sizing: border-box;
 }
 
+*:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+br {
+  height: 0;
+}
+
 header {
-  width: 80%;
+  width: 86%;
   margin: 0 auto;
 }
 
@@ -44,15 +53,14 @@ header {
   width: 80%;
   text-align: center;
   height: 100%;
-  vertical-align: middle;
 }
 
 .nav-ul li {
   width: 16%;
   height: 100%;
-  padding-top: 6px;
   display: inline-block;
   list-style: none;
+  vertical-align: middle;
   h5 {
     margin: 0;
   }
@@ -62,8 +70,21 @@ header {
   }
 }
 
+.btn-nav {
+  padding-top: 6px;
+  height: 100%;
+  width: 100%;
+}
+
 main {
-  width: 80%;
+  width: 86%;
   margin: 0 auto;
-  padding-top: 7px;
+  padding: 10px 0 20px 0;
+}
+
+.sub-footer {
+  width: 86%;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-top: dotted 1px black;
 }
