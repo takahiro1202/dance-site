@@ -92,7 +92,7 @@
     width: 48%;
     margin-right: 2%;
     a {
-      font-size: 14px;
+      font-size: 12px;
     }
   }
   &__schedule {
@@ -124,7 +124,7 @@
 }
 
 .font-size {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .group-lesson {
@@ -145,4 +145,20 @@
   padding: 7px;
   border-top: solid 1px white;
   border-right: solid 1px white;
+}
+
+.exit {
+  margin: 15px 0;
+  background-color: darkgray;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.ticket {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.ticket-img {
+  width: 100%;
 }
