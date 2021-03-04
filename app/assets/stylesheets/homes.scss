@@ -21,7 +21,7 @@
       }
     }
   }
-  &__infomation {
+  &__information {
     width: 40%;
     p {
       font-size: 25px;
@@ -161,4 +161,13 @@
 
 .ticket-img {
   width: 100%;
+}
+
+.print-off {
+  display: none;
+}
+
+.area-center {
+  margin-top: 15px;
+  text-align: center;
 }

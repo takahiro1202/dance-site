@@ -17,3 +17,15 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
+$(function(){
+  $(document).on('click', '.print-btn', function(){
+    var printArea = document.getElementsByClassName("print-area");
+    $('body').append('<div id="print" class="printBc"></div>');
+    $(printArea).clone().appendTo('#print');
+    $('body > :not(#print)').addClass('print-off');
+    window.print();
+    $('#print').remove();
+    $('.print-off').removeClass('print-off');
+  })
+})
